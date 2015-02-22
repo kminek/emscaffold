@@ -1,0 +1,10 @@
+{
+    "name": "scaffold",
+    "version": "0.0.1",
+    "main": "scaffold.less",
+    "author": "Grzesiek W",
+    "dependencies": {
+        "normalize-css": "3.0.*",
+        "bootstrap": "3.3.*"
+    }
+}
