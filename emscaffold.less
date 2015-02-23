@@ -18,8 +18,10 @@
    Mixins
    ========================================================================== */
 
-.font-size(@px; @base: @body-font-size) {
-    font-size: (@px / @base) * 1em;
+.em(@selector; @px; @base: @body-font-size)
+{
+    @v: (@px / @base) * 1em;
+    @{selector}: @v;
 }
 
 /* ==========================================================================
@@ -39,7 +41,7 @@
 
 @import "../bootstrap/less/mixins.less";
 @import "../bootstrap/less/grid.less";
-@import "../bootstrap/less/utilities.less"; 
+@import "../bootstrap/less/utilities.less";
 
 *
 {
