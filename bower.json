@@ -1,10 +1,9 @@
 {
     "name": "emscaffold",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "emscaffold.less",
     "author": "Grzesiek W",
     "dependencies": {
-        "normalize-css": "3.0.*",
         "bootstrap": "3.3.*"
     }
 }
