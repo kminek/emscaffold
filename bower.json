@@ -1,6 +1,6 @@
 {
     "name": "emscaffold",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "main": "emscaffold.less",
     "author": "Grzesiek W",
     "dependencies": {
